@@ -1,13 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 /* ik heb absoluut geen idee wat ik hier aan het doen ben ¯\_(´・ω・｀)_/¯ 
 */
+
+* {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 
 .embed-responsive-item{
     background-color: #220694;
 }
 
 #top{
-    width: 101vw;
+    width: 99.14vw; /* lmao wat is dit TT_TT */
     position: absolute;
     padding-left: 0px;
     background-image: url(../img/x.gif);
@@ -16,7 +22,7 @@
 }
 
 #centre{
-    width: 85.1vw;
+    width: 83.19vw;
     height: 100vh;
     margin-top: 8vw;
     margin-left: 15.85vw;
@@ -32,8 +38,9 @@
     position: absolute;
 }
 
-#binnen{
-    font-family: 'Didact Gothic', sans-serif;
+#binnen p.pleasedontask{
+    margin-left: 15px;
+    color: aqua;
 }
 
 .alt-grid .row{
@@ -43,11 +50,6 @@
 .alt-grid .container-fluid{
     margin: 0 auto;
     padding: 0px;
-}
-
-p.pleasedontask{
-    margin-left: 15px;
-    color: #01c511;
 }
 
 h1{
