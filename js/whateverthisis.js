@@ -45,7 +45,7 @@ function make_article(obj){
         art.appendChild(text);
         art.appendChild(link);
 
-        shit.appendChild(art);
+        dingetje.appendChild(art);
     }
 }
 
