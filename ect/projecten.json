@@ -1,0 +1,88 @@
+{
+	"projecten": [
+		{
+			"naam": "Afstudeeropdracht",
+			"thumbnail": "https://raw.githubusercontent.com/0974201/website/main/img/gif2.gif",
+			"talen": "C# (ASP.NET), HTML + CSS",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/werkplaats-4-react"
+		},
+		{
+			"naam": "Kraan simulatie",
+			"thumbnail": "https://raw.githubusercontent.com/0974201/website/main/img/gif2.gif",
+			"talen": "C#, Python, ReactJS, HTML + CSS",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/werkplaats-6-cranesim"
+		},
+		{
+			"naam": "n8n",
+			"thumbnail": "https://raw.githubusercontent.com/0974201/website/main/img/gif2.gif",
+			"talen": "Typescript",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/werkplaats-5-n8n"
+		},
+		{
+			"naam": "Dyflexis",
+			"thumbnail": "https://raw.githubusercontent.com/0974201/website/main/img/gif2.gif",
+			"talen": "ReactJS, JavaScript, SQL, HTML + CSS",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/werkplaats-4-react"
+		},
+		{
+			"naam": "Aanwezigheidstool HRO",
+			"thumbnail": "https://raw.githubusercontent.com/0974201/website/main/img/gif1.gif",
+			"talen": "Python (Flask), JavaScript, SQL, HTML + CSS",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/werkplaats-3-rest"
+		},
+		{
+			"naam": "Test Correct",
+			"thumbnail": "https://raw.githubusercontent.com/0974201/website/main/img/tc.png",
+			"talen": "Python (Flask), Jinja, SQL, HTML + CSS",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/werkplaats-2-mvc"
+		},
+		{
+			"naam": "Space Warriors",
+			"thumbnail": "https://raw.githubusercontent.com/0974201/website/main/img/gif3.gif",
+			"talen": "Python (Pygame)",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/werkplaats-1-pygame"
+		},
+		{
+			"naam": "Code bin",
+			"thumbnail": "https://raw.githubusercontent.com/0974201/website/main/img/dabin.png",
+			"talen": "C#, Java, Python, JavaScript",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/code-bin"
+		},
+		{
+			"naam": "Brews Clues",
+			"thumbnail": "https://raw.githubusercontent.com/0974201/website/main/img/gif5.gif",
+			"talen": "-",
+			"tekst": "(insert text)",
+			"url": "https://wesdewess.itch.io/brews-clues"
+		},
+		{
+			"naam": "QR scanner/generator app",
+			"thumbnail": "https://raw.githubusercontent.com/0974201/website/main/img/qrding.png",
+			"talen": "Java",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/qrding"
+		},
+		{
+			"naam": "CameraX",
+			"thumbnail": "https://raw.githubusercontent.com/0974201/website/main/img/camerax.png",
+			"talen": "Java",
+			"tekst": "(insert text)",
+			"url": "https://github.com/thunderedge/CameraX"
+		},
+		{
+			"naam": "Full House",
+			"thumbnail": "https://raw.githubusercontent.com/0974201/website/main/img/gif4.gif",
+			"talen": "Java, SQL",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/FullHouse"
+		}
+	]
+}
