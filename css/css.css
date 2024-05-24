@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-/* ik heb absoluut geen idee wat ik hier aan het doen ben ¯\_(´・ω・｀)_/¯ 
-*/
+/* ik heb absoluut geen idee wat ik hier aan het doen ben ¯\_(´・ω・｀)_/¯ */
 
 * {
     font-family: "Source Code Pro", monospace;
@@ -102,15 +101,24 @@
     font-size: 60px;
 }
 
-a:link, a:visited{
-    color: #346579;
+li {
+    list-style-type: '\269D  ';
+}
+
+a:link {
+    color: #00A184;
+    text-decoration: none;
+}
+a:visited, a:visited:active{
+    color: #3800A1;
     text-decoration: underline;
 }
 
-a:link:active, a:visited:active{ 
-    color: #041494;
+a:link:active { 
+    color: #3800A1;
 }
 
 a:hover{
-    color: #666666;
+    color: #00B7BD;
+    text-decoration: wavy;
 }
