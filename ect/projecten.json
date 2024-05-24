@@ -2,21 +2,21 @@
 	"projecten": [
 		{
 			"naam": "Afstudeeropdracht",
-			"thumbnail": "https://raw.githubusercontent.com/0974201/website/main/img/gif2.gif",
+			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
 			"talen": "C# (ASP.NET), HTML + CSS",
 			"tekst": "(insert text)",
 			"url": "https://github.com/0974201/werkplaats-4-react"
 		},
 		{
 			"naam": "Kraan simulatie",
-			"thumbnail": "https://raw.githubusercontent.com/0974201/website/main/img/gif2.gif",
+			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
 			"talen": "C#, Python, ReactJS, HTML + CSS",
 			"tekst": "(insert text)",
 			"url": "https://github.com/0974201/werkplaats-6-cranesim"
 		},
 		{
 			"naam": "n8n",
-			"thumbnail": "https://raw.githubusercontent.com/0974201/website/main/img/gif2.gif",
+			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
 			"talen": "Typescript",
 			"tekst": "(insert text)",
 			"url": "https://github.com/0974201/werkplaats-5-n8n"
@@ -65,7 +65,7 @@
 		},
 		{
 			"naam": "QR scanner/generator app",
-			"thumbnail": "https://raw.githubusercontent.com/0974201/website/main/img/qrding.png",
+			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
 			"talen": "Java",
 			"tekst": "(insert text)",
 			"url": "https://github.com/0974201/qrding"

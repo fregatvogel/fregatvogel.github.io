@@ -37,7 +37,7 @@ function make_article(obj) {
 
         title.innerHTML = project.naam;
         thumb.innerHTML = project.thumbnail;
-        thumb.src = "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg";
+        thumb.src = project.thumbnail;
         languages.innerHTML = "<b>Talen gebruikt: </b>" + project.talen + "<br/><br/>";
         text.innerHTML = project.tekst + '<br/><br/>';
         linktxt.innerHTML = "Link: "
