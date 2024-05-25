@@ -7,10 +7,6 @@
     font-style: normal;
 }
 
-.embed-responsive-item{
-    background-color: #220694;
-}
-
 #top{
     width: 99.14vw; /* lmao wat is dit TT_TT */
     position: absolute;
@@ -30,11 +26,12 @@
     background-repeat: repeat;
 }
 
-#left{
+#left {
     height: 100vh;
     margin-top: 8vw;
     padding-left: 0px;
     position: absolute;
+    background-color: #117A8b;
 }
 
 #content {
