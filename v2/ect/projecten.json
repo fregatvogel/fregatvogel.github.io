@@ -1,0 +1,88 @@
+{
+	"projecten": [
+		{
+			"naam": "Afstudeeropdracht",
+			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
+			"talen": "C# (ASP.NET), HTML + CSS",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/werkplaats-4-react"
+		},
+		{
+			"naam": "Kraan simulatie",
+			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
+			"talen": "C#, Python, ReactJS, HTML + CSS",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/werkplaats-6-cranesim"
+		},
+		{
+			"naam": "n8n",
+			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
+			"talen": "Typescript",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/werkplaats-5-n8n"
+		},
+		{
+			"naam": "Dyflexis",
+			"thumbnail": "./img/gif2.gif",
+			"talen": "ReactJS, JavaScript, SQL, HTML + CSS",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/werkplaats-4-react"
+		},
+		{
+			"naam": "Aanwezigheidstool HRO",
+			"thumbnail": "./img/gif1.gif",
+			"talen": "Python (Flask), JavaScript, SQL, HTML + CSS",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/werkplaats-3-rest"
+		},
+		{
+			"naam": "Test Correct",
+			"thumbnail": "./img/tc.png",
+			"talen": "Python (Flask), Jinja, SQL, HTML + CSS",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/werkplaats-2-mvc"
+		},
+		{
+			"naam": "Space Warriors",
+			"thumbnail": "./img/gif3.gif",
+			"talen": "Python (Pygame)",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/werkplaats-1-pygame"
+		},
+		{
+			"naam": "Code bin",
+			"thumbnail": "./img/dabin.png",
+			"talen": "C#, Java, Python, JavaScript",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/code-bin"
+		},
+		{
+			"naam": "Brews Clues",
+			"thumbnail": "./img/gif5.gif",
+			"talen": "-",
+			"tekst": "(insert text)",
+			"url": "https://wesdewess.itch.io/brews-clues"
+		},
+		{
+			"naam": "QR scanner/generator app",
+			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
+			"talen": "Java",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/basic"
+		},
+		{
+			"naam": "CameraX",
+			"thumbnail": "./img/camerax.png",
+			"talen": "Java",
+			"tekst": "(insert text)",
+			"url": "https://github.com/fregatvogel/CameraX"
+		},
+		{
+			"naam": "Full House",
+			"thumbnail": "./img/gif4.gif",
+			"talen": "Java, SQL",
+			"tekst": "(insert text)",
+			"url": "https://github.com/0974201/FullHouse"
+		}
+	]
+}
