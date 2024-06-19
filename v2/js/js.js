@@ -1,7 +1,7 @@
 async function get_projects() {
     try {
-        const response = await fetch('https://raw.githubusercontent.com/fregatvogel/fregatvogel.github.io/main/ect/projecten.json'); //github link gebruikt want cors
-        //const response = await fetch('./ect/projecten.json'); //github link gebruikt want cors
+        //const response = await fetch('https://raw.githubusercontent.com/fregatvogel/fregatvogel.github.io/main/ect/projecten.json'); //github link gebruikt want cors
+        const response = await fetch('./ect/projecten.json'); //github link gebruikt want cors
         const projecten = await response.json();
 
         console.log(`${JSON.stringify(projecten)}`);

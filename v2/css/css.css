@@ -78,7 +78,7 @@ body {
     height: 400px;
 }
 
-#proj {
+#project {
     width: inherit;
     display: flex;
     justify-content: center;
@@ -90,13 +90,13 @@ body {
     background-color: #999999;
 }
 
-#proj img{
+#project img{
     width: 450px;
     margin-bottom: 10px;
     border: 10px solid #0066ff;
 }
 
-#proj span{
+#project span{
     overflow-wrap: anywhere;
 }
 
@@ -163,7 +163,7 @@ a:hover {
         size: 50px;
     }
 
-    #proj {
+    #project {
         width: auto;
         margin-bottom: 10px;
         background-color: #666666;
@@ -173,7 +173,7 @@ a:hover {
         flex-direction: column;
     }
 
-    #proj img{
+    #project img{
         width: 250px;
         margin-bottom: 10px;
         border: 10px solid #0066ff;
