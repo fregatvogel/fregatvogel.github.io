@@ -28,7 +28,7 @@ function make_article(obj) {
         console.log(project);
         const art = document.createElement("article");
         art.id = "project";
-        const title = document.createElement('h1');
+        const title = document.createElement('h2');
         const thumb = document.createElement('img');
         const languages = document.createElement('span');
         const text = document.createElement('span');
