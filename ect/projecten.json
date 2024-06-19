@@ -1,12 +1,5 @@
 {
 	"projecten": [
-		/*{
-			"naam": "Afstudeeropdracht",
-			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
-			"talen": "C# (ASP.NET), HTML + CSS",
-			"tekst": "(insert text)",
-			"url": "https://github.com/0974201/werkplaats-4-react"
-		},*/
 		{
 			"naam": "Kraan simulatie | Eye-Concept",
 			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
@@ -56,13 +49,6 @@
 			"tekst": "(insert text)",
 			"url": "https://wesdewess.itch.io/brews-clues"
 		},
-		/*{
-			"naam": "QR scanner/generator app",
-			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
-			"talen": "Java",
-			"tekst": "(insert text)",
-			"url": "https://github.com/0974201/basic"
-		},*/
 		{
 			"naam": "CameraX",
 			"thumbnail": "./img/camerax.png",
