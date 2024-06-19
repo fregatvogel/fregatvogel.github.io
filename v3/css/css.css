@@ -107,6 +107,7 @@ a:hover {
 
     #project img{
         width: 250px;
+        margin-top: 10px;
         margin-bottom: 10px;
         border: 10px solid #0066ff;
     }
