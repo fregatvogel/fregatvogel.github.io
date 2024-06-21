@@ -9,7 +9,7 @@ async function get_projects() {
         make_article(projecten)
 
     } catch (error) {
-        const err = document.querySelector("#content")
+        const err = document.querySelector("#project-content")
         const txt = document.createElement('p');
 
         txt.textContent = error;
@@ -20,7 +20,7 @@ async function get_projects() {
 }
 
 function make_article(obj) {
-    const div = document.querySelector("#content");
+    const div = document.querySelector("#project-content");
     const projecten = obj.projecten;
     console.log(projecten);
 
@@ -28,7 +28,7 @@ function make_article(obj) {
         console.log(project);
         const art = document.createElement("article");
         art.id = "project";
-        const title = document.createElement('h1');
+        const title = document.createElement('h2');
         const thumb = document.createElement('img');
         const languages = document.createElement('span');
         const text = document.createElement('span');

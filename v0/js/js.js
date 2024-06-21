@@ -1,7 +1,7 @@
 async function get_projects() {
     try {
-        //const response = await fetch('https://raw.githubusercontent.com/fregatvogel/fregatvogel.github.io/main/ect/projecten.json'); //github link gebruikt want cors
-        const response = await fetch('./ect/projecten.json'); //github link gebruikt want cors
+        const response = await fetch('https://raw.githubusercontent.com/fregatvogel/fregatvogel.github.io/main/ect/projecten.json'); //github link gebruikt want cors
+        //const response = await fetch('./ect/projecten.json'); //github link gebruikt want cors
         const projecten = await response.json();
 
         console.log(`${JSON.stringify(projecten)}`);
@@ -9,7 +9,7 @@ async function get_projects() {
         make_article(projecten)
 
     } catch (error) {
-        const err = document.querySelector("#project-content")
+        const err = document.querySelector("#content")
         const txt = document.createElement('p');
 
         txt.textContent = error;
@@ -20,7 +20,7 @@ async function get_projects() {
 }
 
 function make_article(obj) {
-    const div = document.querySelector("#project-content");
+    const div = document.querySelector("#content");
     const projecten = obj.projecten;
     console.log(projecten);
 
@@ -28,7 +28,7 @@ function make_article(obj) {
         console.log(project);
         const art = document.createElement("article");
         art.id = "project";
-        const title = document.createElement('h2');
+        const title = document.createElement('h1');
         const thumb = document.createElement('img');
         const languages = document.createElement('span');
         const text = document.createElement('span');

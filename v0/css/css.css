@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+/* ik heb absoluut geen idee wat ik hier aan het doen ben ¯\_(´・ω・｀)_/¯ */
+
+* {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#top{
+    width: 99.14vw; /* lmao wat is dit TT_TT */
+    position: absolute;
+    padding-left: 0px;
+    background-image: url(../img/x.gif);
+    background-repeat: repeat;
+
+}
+
+#centre{
+    width: 83.19vw;
+    height: 100vh;
+    margin-top: 8vw;
+    margin-left: 15.85vw;
+    position: absolute;
+    background-image: url(../img/y.gif);
+    background-repeat: repeat;
+}
+
+#left {
+    height: 100vh;
+    margin-top: 8vw;
+    padding-left: 0px;
+    position: absolute;
+    background-color: #117A8b;
+}
+
+#content {
+    /* background-color: #1E1C1C99; */
+    /* margin-left: 15px; */
+    color: aqua;
+}
+
+.alt-grid .row{
+    padding: 0px;
+}
+
+.alt-grid .container-fluid{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#project {
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1E1C1C99;
+}
+
+#project img {
+    width: 450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 10px solid #0066FF;
+}
+
+#project span {
+    overflow-wrap: anywhere;
+}
+
+#inhoud {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: #1E1C1C99; */
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+#inhoud p {
+    align-content: center;
+}
+
+#construction {
+    padding: 50px;
+}
+
+#header {
+    margin: 0;
+    text-align: center;
+    color: #750000;
+    font-size: 60px;
+}
+
+li {
+    list-style-type: '\269D  ';
+}
+
+a:link {
+    color: #00A184;
+    text-decoration: none;
+}
+a:visited, a:visited:active {
+    color: #6C1EFF;
+    text-decoration: underline;
+}
+
+a:link:active { 
+    color: #3800A1;
+}
+
+a:hover{
+    color: #00B7BD;
+    text-decoration: wavy;
+}

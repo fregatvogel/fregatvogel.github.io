@@ -1,52 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-/* ik heb absoluut geen idee wat ik hier aan het doen ben ¯\_(´・ω・｀)_/¯ */
+/* ¯\_(´・ω・｀)_/¯ */
 
 * {
+    margin: 0;
+    padding: 0;
     font-family: "Source Code Pro", monospace;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
-#top{
-    width: 99.14vw; /* lmao wat is dit TT_TT */
-    position: absolute;
-    padding-left: 0px;
-    background-image: url(../img/x.gif);
-    background-repeat: repeat;
-
-}
-
-#centre{
-    width: 83.19vw;
-    height: 100vh;
-    margin-top: 8vw;
-    margin-left: 15.85vw;
-    position: absolute;
-    background-image: url(../img/y.gif);
-    background-repeat: repeat;
-}
-
-#left {
-    height: 100vh;
-    margin-top: 8vw;
-    padding-left: 0px;
-    position: absolute;
-    background-color: #117A8b;
+body {
+    background-color: #999999;
+    cursor: grab;
 }
 
 #content {
-    /* background-color: #1E1C1C99; */
-    /* margin-left: 15px; */
-    color: aqua;
+    margin-top: 50px;
+    width: 85%;
+    margin-left: 90px;
+    height: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #bdbdbd;
 }
 
-.alt-grid .row{
-    padding: 0px;
-}
-
-.alt-grid .container-fluid{
-    margin: 0 auto;
-    padding: 0px;
+#contact {
+    height: 400px;
 }
 
 #project {
@@ -58,65 +37,81 @@
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #1E1C1C99;
+    background-color: #00ffe809;
 }
 
-#project img {
+#project img{
     width: 450px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 10px solid #0066FF;
+    border: 10px ridge #bdbdbd;
 }
 
-#project span {
+#project span{
     overflow-wrap: anywhere;
+    font-size: medium;
 }
 
-#inhoud {
-    width: inherit;
-    height: inherit;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    /* background-color: #1E1C1C99; */
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
+#project b {
+    font-size: medium;
 }
 
-#inhoud p {
-    align-content: center;
+#project a{
+    font-size: medium;
 }
 
 #construction {
     padding: 50px;
 }
 
-#header {
-    margin: 0;
-    text-align: center;
-    color: #750000;
-    font-size: 60px;
+a:link, a:visited {
+    color: #0066ff;
+    text-decoration: dotted underline;
 }
 
-li {
-    list-style-type: '\269D  ';
-}
-
-a:link {
-    color: #00A184;
+a:link:active, a:visited:active { 
+    color: #000099;
     text-decoration: none;
 }
-a:visited, a:visited:active {
-    color: #6C1EFF;
-    text-decoration: underline;
+
+a:hover {
+    cursor: help;
+    color: #660099;
 }
 
-a:link:active { 
-    color: #3800A1;
-}
+@media screen and (max-width: 600px) {
 
-a:hover{
-    color: #00B7BD;
-    text-decoration: wavy;
+    #content {
+        margin-top: 50px;
+        width: 85%;
+        margin-left: 30px;
+        height: auto;
+        background-color: #13d8c009;
+    }
+    
+    #content img {
+        size: 50px;
+    }
+
+    #project {
+        width: auto;
+        margin-bottom: 10px;
+        background-color: #7cb9b3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #project h2 {
+        font-size: large;
+    }
+
+    #project img{
+        width: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 10px ridge #bdbdbd;
+    }
+
 }
