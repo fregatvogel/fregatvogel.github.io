@@ -43,6 +43,13 @@
 			"url": "https://github.com/decoyfalcon/werkplaats-1-pygame"
 		},
 		{
+			"naam": "Portfolio",
+			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
+			"talen": "HTML + CSS, JavaScript",
+			"tekst": "(insert text)",
+			"url": "https://github.com/fregatvogel/fregatvogel.github.io"
+		},
+		{
 			"naam": "Brews Clues",
 			"thumbnail": "./img/gif5.gif",
 			"talen": "-",

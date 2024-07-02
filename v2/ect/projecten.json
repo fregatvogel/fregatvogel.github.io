@@ -5,42 +5,42 @@
 			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
 			"talen": "C#, Python, ReactJS, HTML + CSS",
 			"tekst": "(insert text)",
-			"url": "https://github.com/0974201/werkplaats-6-cranesim"
+			"url": "https://github.com/decoyfalcon/werkplaats-6-cranesim"
 		},
 		{
 			"naam": "n8n node | CloudShift",
 			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
 			"talen": "Typescript",
 			"tekst": "(insert text)",
-			"url": "https://github.com/0974201/werkplaats-5-n8n"
+			"url": "https://github.com/decoyfalcon/werkplaats-5-n8n"
 		},
 		{
 			"naam": "360 Graden Feedbacktool | Dyflexis",
 			"thumbnail": "./img/gif2.gif",
 			"talen": "ReactJS, JavaScript, SQL, HTML + CSS",
 			"tekst": "(insert text)",
-			"url": "https://github.com/0974201/werkplaats-4-react"
+			"url": "https://github.com/decoyfalcon/werkplaats-4-react"
 		},
 		{
 			"naam": "Aanwezigheidstool | HRO",
 			"thumbnail": "./img/gif1.gif",
 			"talen": "Python (Flask), JavaScript, SQL, HTML + CSS",
 			"tekst": "(insert text)",
-			"url": "https://github.com/0974201/werkplaats-3-rest"
+			"url": "https://github.com/decoyfalcon/werkplaats-3-rest"
 		},
 		{
 			"naam": "Het vragen hospitaal | Test Correct",
 			"thumbnail": "./img/tc.png",
 			"talen": "Python (Flask), Jinja, SQL, HTML + CSS",
 			"tekst": "(insert text)",
-			"url": "https://github.com/0974201/werkplaats-2-mvc"
+			"url": "https://github.com/decoyfalcon/werkplaats-2-mvc"
 		},
 		{
 			"naam": "Space Warriors",
 			"thumbnail": "./img/gif3.gif",
 			"talen": "Python (Pygame)",
 			"tekst": "(insert text)",
-			"url": "https://github.com/0974201/werkplaats-1-pygame"
+			"url": "https://github.com/decoyfalcon/werkplaats-1-pygame"
 		},
 		{
 			"naam": "Brews Clues",
@@ -61,7 +61,7 @@
 			"thumbnail": "./img/gif4.gif",
 			"talen": "Java, SQL",
 			"tekst": "(insert text)",
-			"url": "https://github.com/0974201/FullHouse"
+			"url": "https://github.com/decoyfalcon/FullHouse"
 		}
 	]
 }
