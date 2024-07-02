@@ -3,13 +3,13 @@
 document.addEventListener("keydown", (event) => {
     if (event.code == 'F1') {
         alert('hi :)');
-    } 
+    }
 });
 
 
 window.addEventListener("DOMContentLoaded", (event) => {
     //A+ coding right here
-    const changeStateTitleBarTop = document.querySelector("#content");
+    const changeStateTitleBarTop = document.querySelector("main");
     const changeStateTitleBarMain = document.querySelector("#installshield-bigtext");
 
     changeStateTitleBarTop.addEventListener("click", () => {
@@ -22,7 +22,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         console.log("flipped again");
         document.getElementById("top-title-bar").className = "title-bar";
         document.getElementById("content-title-bar").className = "title-bar inactive";
-    });  
+    });
 })
 
 
