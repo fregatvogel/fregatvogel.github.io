@@ -14,14 +14,64 @@ body {
     cursor: grab;
 }
 
+#navbar {
+    position: fixed;
+    top: 0;
+}
+
+#navbar, #navbar-ul {
+    background: linear-gradient(to right, rgba(0,0,102,1) 0%, rgba(51,0,102,1) 55%, rgba(51,0,102,1) 100%);
+}
+
+#navbar-ul {
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+#navbar-ul li {
+    float: left;
+    border-right: 1px solid #333333;
+}
+
+#navbar-ul a {
+    display: block;
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#navbar-ul li a:hover {
+    background-color: #666666;
+    color: #000000;
+    text-decoration: none;
+}
+
+#navbar-ul #icon {
+    float: right;
+    background-color: #666666;
+}
+
+#navbar-ul #icon a:hover{
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 15%, rgba(0,255,0,1) 30%, rgba(0,174,255,1) 45%, rgba(0,29,255,1) 60%, rgba(179,0,255,1) 75%, rgba(255,0,142,1) 90%, rgba(255,0,0,1) 100%);
+}
+
+#navbar-ul #current, #current:hover {
+    color: #660099;
+}
+
+#navbar-ul span{
+    text-decoration: underline;
+}
+
 #content {
-    margin-top: 80px;
+    margin-top: 50px;
     width: 85%;
-    margin-left: 100px;
+    margin-left: 88px;
     height: auto;
-    margin-bottom: 50px;
     text-align: center;
-    background-color: #bdbdbd;
+    background-color: #ffffff;
 }
 
 #contact {
@@ -37,31 +87,29 @@ body {
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #00ffe809;
+    background-color: #999999;
 }
 
 #project img{
     width: 450px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 10px ridge #bdbdbd;
+    border: 10px solid #0066ff;
 }
 
 #project span{
     overflow-wrap: anywhere;
-    font-size: medium;
-}
-
-#project b {
-    font-size: medium;
-}
-
-#project a{
-    font-size: medium;
 }
 
 #construction {
     padding: 50px;
+}
+
+#foot {
+    width: 85%;
+    margin-left: 88px;
+    text-align: right;
+    background-color: cornflowerblue;
 }
 
 a:link, a:visited {
@@ -80,13 +128,36 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
+    #navbar-ul {
+        list-style-type: none;
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+    }
+
+    #navbar-ul a {
+        display: flex;
+        flex-direction: row;
+        padding: 9px;
+        font-size: small;
+    }
+
+    #navbar-ul #icon {
+        float: right;
+        padding: 15px;
+        background-color: #666666;
+    }
+
+    #navbar-ul #icon a:hover{
+        background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 15%, rgba(0,255,0,1) 30%, rgba(0,174,255,1) 45%, rgba(0,29,255,1) 60%, rgba(179,0,255,1) 75%, rgba(255,0,142,1) 90%, rgba(255,0,0,1) 100%);
+    }
 
     #content {
         margin-top: 50px;
         width: 85%;
         margin-left: 30px;
         height: auto;
-        background-color: #bdbdbd;
+        background-color: #ffffff;
     }
     
     #content img {
@@ -96,22 +167,24 @@ a:hover {
     #project {
         width: auto;
         margin-bottom: 10px;
-        background-color: #00ffe809;
+        background-color: #666666;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
 
-    #project h2 {
-        font-size: large;
-    }
-
     #project img{
         width: 250px;
         margin-top: 10px;
         margin-bottom: 10px;
-        border: 10px ridge #bdbdbd;
+        border: 10px solid #0066ff;
     }
 
+    #foot {
+        width: 85%;
+        margin-left: 30px;
+        text-align: right;
+        background-color: cornflowerblue;
+    }
 }
