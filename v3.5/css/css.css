@@ -10,7 +10,7 @@
 }
 
 body {
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(10,25,203,1) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(10, 25, 203, 1) 100%);
     cursor: grab;
 }
 
@@ -28,6 +28,18 @@ body {
     font-style: italic;
     color: #f6d0d0;
     text-shadow: #000001 6px 3px;
+}
+
+#help-button {
+    cursor: help;
+}
+
+#close-button-2, #min-button, #res-button {
+    cursor: not-allowed;
+}
+
+#notes {
+    width: 100%;
 }
 
 #content {
@@ -57,14 +69,14 @@ body {
     border-bottom: #00ffe809 50px solid;
 }
 
-#project img{
+#project img {
     width: 450px;
     margin-top: 10px;
     margin-bottom: 10px;
     border: 10px ridge #7c7979;
 }
 
-#project span{
+#project span {
     overflow-wrap: anywhere;
     font-size: medium;
 }
@@ -73,7 +85,7 @@ body {
     font-size: medium;
 }
 
-#project a{
+#project a {
     font-size: medium;
 }
 
@@ -81,12 +93,14 @@ body {
     padding: 50px;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: #0066ff;
     text-decoration: dotted underline;
 }
 
-a:link:active, a:visited:active { 
+a:link:active,
+a:visited:active {
     color: #000099;
     text-decoration: none;
 }
@@ -124,7 +138,7 @@ a:hover {
         font-size: large;
     }
 
-    #project img{
+    #project img {
         width: 250px;
         margin-top: 10px;
         margin-bottom: 10px;

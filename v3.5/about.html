@@ -20,10 +20,9 @@
         <div id="top-title-bar" class="title-bar">
             <div class="title-bar-text">&raquo; Not InstallShield</div>
             <div class="title-bar-controls">
-                <button aria-label="Help"></button>
-                <button aria-label="Minimize"></button>
-                <button aria-label="Restore"></button>
-                <button aria-label="Close"></button>
+                <button id="min-button" aria-label="Minimize"></button>
+                <button id="res-button" aria-label="Restore"></button>
+                <button id="close-button" aria-label="Close"></button>
             </div>
         </div>
     </div>
@@ -33,9 +32,8 @@
             <div id="content-title-bar" class="title-bar inactive">
                 <div class="title-bar-text">&raquo; Home</div>
                 <div class="title-bar-controls">
-                    <button aria-label="Minimize"></button>
-                    <button aria-label="Maximize"></button>
-                    <button aria-label="Close"></button>
+                    <button id="help-button" aria-label="Help"></button>
+                    <button id="close-button-2" disabled aria-label="Close"></button>
                 </div>
             </div>
             <div class="window-body">
@@ -52,6 +50,13 @@
                         <p id="construction">under construction</p>
                         <img src="https://media.tenor.com/MRCIli40TYoAAAAi/under-construction90s-90s.gif" alt="gif">
                         <p id="construction">under construction</p>
+                        
+                        <div id ="notes" class="field-row-stacked" >
+                            <label for="text20">Notes</label>
+                            <textarea disabled id="text20" rows="8">
+                                lorem ipsum dolor si amet
+                            </textarea>
+                        </div>
                     </div>
                 </div>
             </div>
