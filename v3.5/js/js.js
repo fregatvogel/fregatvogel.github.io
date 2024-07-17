@@ -12,22 +12,19 @@ window.addEventListener("DOMContentLoaded", (event) => {
     const changeStateTitleBarTop = document.querySelector("main");
     const changeStateTitleBarMain = document.querySelector("#installshield-bigtext");
     const closeButton = document.querySelector("#close-button");
-    const helpButton = document.querySelector("#help-button");;
+    const helpButton = document.querySelector("#help-button");
 
     changeStateTitleBarTop.addEventListener("click", () => {
-        console.log("flip");
         document.getElementById("top-title-bar").className = "title-bar inactive";
         document.getElementById("content-title-bar").className = "title-bar";
     });
 
     changeStateTitleBarMain.addEventListener("click", () => {
-        console.log("flipped again");
         document.getElementById("top-title-bar").className = "title-bar";
         document.getElementById("content-title-bar").className = "title-bar inactive";
     });
 
     closeButton.addEventListener("click", () => {
-        console.log("yo");
         window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; //ayo replit auto suggest???
     });
 
