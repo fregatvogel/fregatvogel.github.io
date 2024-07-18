@@ -26,25 +26,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
         document.getElementById("content-title-bar").className = "title-bar inactive";
     });
 
-    closeButton.addEventListener("click", () => {
-        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank"); //ayo replit auto suggest???
-    });
-
-    minButton.addEventListener("click", () => {
-        //welp, guess my other plan didn't work out as i hoped it would
-        window.open("https://incubator.miraheze.org/wiki/Wp/enm/Frogge", "_blank");
-    });
-
-    resButton.addEventListener("click", () => {
-        window.open("https://www.youtube.com/watch?v=7dGwk5-QMpc", "_blank");
-    });
-
     helpButton.addEventListener("click", () => {
         //console.log(window.navigator.userAgent);
 
         if(window.navigator.userAgent.indexOf("Firefox") != -1){
             window.open("https://support.mozilla.org/en-US/products/firefox","_blank"); 
-        } else if (window.navigator.userAgent.indexOf("OPRGX") || (window.navigator.userAgent.indexOf("OPR")) != -1){
+        } else if (window.navigator.userAgent.indexOf("OPRGX") != -1){
             window.open("https://help.opera.com/en/latest/","_blank");
         } else if (window.navigator.userAgent.indexOf("Edg") != -1){
             window.open("https://support.microsoft.com/en-gb/microsoft-edge","_blank");   
@@ -53,7 +40,19 @@ window.addEventListener("DOMContentLoaded", (event) => {
         } else if (window.navigator.userAgent.indexOf("Safari") != -1){
             window.open("https://support.apple.com/safari","_blank");  
         }
+    });
 
+    resButton.addEventListener("click", () => {
+        window.open("https://www.youtube.com/watch?v=7dGwk5-QMpc", "_blank");
+    });
+
+    minButton.addEventListener("click", () => {
+        //welp, guess my other plan didn't work out as i hoped it would
+        window.open("https://incubator.miraheze.org/wiki/Wp/enm/Frogge", "_blank");
+    });
+
+    closeButton.addEventListener("click", () => {
+        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank"); //ayo replit auto suggest???
     });
 });
 
