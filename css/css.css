@@ -110,6 +110,42 @@ a:hover {
     color: #660099;
 }
 
+@media screen and (max-width: 400px) {
+
+    #content {
+        margin-top: 50px;
+        width: 80%;
+        margin-left: 50px;
+        height: auto;
+        background-color: #bdbdbd;
+    }
+
+    #content img {
+        size: 50px;
+    }
+
+    #project {
+        width: auto;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #project h2 {
+        font-size: large;
+    }
+
+    #project img {
+        width: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 5px ridge #bdbdbd;
+    }
+
+}
+
 @media screen and (max-width: 600px) {
 
     #content {
@@ -146,7 +182,7 @@ a:hover {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
     #content {
         margin-top: 50px;
@@ -174,7 +210,7 @@ a:hover {
     }
 
     #project img {
-        width: 250px;
+        width: 400px;
         margin-top: 10px;
         margin-bottom: 10px;
         border: 5px ridge #bdbdbd;
