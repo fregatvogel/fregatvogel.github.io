@@ -25,13 +25,29 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
 
     closeButton.addEventListener("click", () => {
-        window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; //ayo replit auto suggest???
+        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank"); //ayo replit auto suggest???
     });
 
     helpButton.addEventListener("click", () => {
-        alert("not available at the moment");
+        //opera zou ook hier tussen moeten maar ehhhhh
+        console.log(window.navigator.userAgent);
+
+        if(window.navigator.userAgent.indexOf("Firefox") != -1){
+            console.log("Firefox");
+            window.open("https://support.mozilla.org/en-US/products/firefox","_blank"); 
+        } else if (window.navigator.userAgent.indexOf("Edg") != -1){
+            console.log("Edge");
+            window.open("https://support.microsoft.com/en-gb/microsoft-edge","_blank");   
+        } else if (window.navigator.userAgent.indexOf("Chrome") != -1){
+            console.log("Chrome");
+            window.open("https://support.google.com/chrome?p=help","_blank");  
+        } else if (window.navigator.userAgent.indexOf("Safari") != -1){
+            alert("Safari");
+            window.open("https://support.apple.com/safari","_blank");  
+        }
+
     });
-})
+});
 
 
 /*window.addEventListener("DOMContentLoaded", (event) => {
