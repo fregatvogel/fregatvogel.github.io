@@ -2,14 +2,14 @@
 	"projecten": [
 		{
 			"naam": "Kraan simulatie | Eye-Concept",
-			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
+			"thumbnail": "./img/gif8.gif",
 			"talen": "C#, Python, ReactJS, HTML + CSS",
 			"tekst": "(insert text)",
 			"url": "https://github.com/decoyfalcon/werkplaats-6-cranesim"
 		},
 		{
 			"naam": "n8n node | CloudShift",
-			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
+			"thumbnail": "./img/gif6.gif",
 			"talen": "Typescript",
 			"tekst": "(insert text)",
 			"url": "https://github.com/decoyfalcon/werkplaats-5-n8n"
@@ -44,7 +44,7 @@
 		},
 		{
 			"naam": "Portfolio",
-			"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chengdu-pandas-d04.jpg",
+			"thumbnail": "./img/gif7.gif",
 			"talen": "HTML + CSS, JavaScript",
 			"tekst": "(insert text)",
 			"url": "https://github.com/fregatvogel/fregatvogel.github.io"

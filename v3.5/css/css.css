@@ -138,10 +138,10 @@ a:hover {
     }
 
     #project img {
-        width: 150px;
+        width: 250px;
         margin-top: 10px;
         margin-bottom: 10px;
-        border: 10px ridge #bdbdbd;
+        border: 5px ridge #bdbdbd;
     }
 
 }
