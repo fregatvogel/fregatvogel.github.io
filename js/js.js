@@ -12,6 +12,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
     const changeStateTitleBarTop = document.querySelector("main");
     const changeStateTitleBarMain = document.querySelector("#installshield-bigtext");
     const closeButton = document.querySelector("#close-button");
+    const minButton = document.querySelector("#min-button");
+    const resButton = document.querySelector("#res-button");
     const helpButton = document.querySelector("#help-button");
 
     changeStateTitleBarTop.addEventListener("click", () => {
@@ -28,12 +30,22 @@ window.addEventListener("DOMContentLoaded", (event) => {
         window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank"); //ayo replit auto suggest???
     });
 
+    minButton.addEventListener("click", () => {
+        //welp, guess my other plan didn't work out as i hoped it would
+        window.open("https://incubator.miraheze.org/wiki/Wp/enm/Frogge", "_blank");
+    });
+
+    resButton.addEventListener("click", () => {
+        window.open("https://www.youtube.com/watch?v=7dGwk5-QMpc", "_blank");
+    });
+
     helpButton.addEventListener("click", () => {
-        //opera zou ook hier tussen moeten maar ehhhhh
         //console.log(window.navigator.userAgent);
 
         if(window.navigator.userAgent.indexOf("Firefox") != -1){
             window.open("https://support.mozilla.org/en-US/products/firefox","_blank"); 
+        } else if (window.navigator.userAgent.indexOf("OPRGX") || (window.navigator.userAgent.indexOf("OPR")) != -1){
+            window.open("https://help.opera.com/en/latest/","_blank");
         } else if (window.navigator.userAgent.indexOf("Edg") != -1){
             window.open("https://support.microsoft.com/en-gb/microsoft-edge","_blank");   
         } else if (window.navigator.userAgent.indexOf("Chrome") != -1){
