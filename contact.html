@@ -1,13 +1,13 @@
 ﻿<html lang="nl">
 <head>
-    <title> &raquo; Contact</title> <!-- v0.414 -->
+    <title> &raquo; Contact</title> <!-- v0.??? -->
 
     <meta name="description" content="🦜">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" type="text/css" href="css/css.css">
-    <script src="js/test.js"></script>
+    <script src="js/js.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/98.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
     <script src="https://kit.fontawesome.com/97f46c2830.js" crossorigin="anonymous"></script>
@@ -16,21 +16,32 @@
 </head>
 
 <body>
+    <div id="installshieldtitle">
+        <div id="top-title-bar" class="title-bar">
+            <div class="title-bar-text">&#128421; Not InstallShield</div>
+            <div class="title-bar-controls">
+                <button id="min-button" disabled aria-label="Minimize"></button>
+                <button id="res-button" disabled aria-label="Restore"></button>
+                <button id="close-button" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+    <div id="installshield-bigtext"><h2>insert text</h2></div>
     <main>
         <div id="content">
-            <div class="title-bar">
+            <div id="content-title-bar" class="title-bar inactive">
                 <div class="title-bar-text">&raquo; Contact</div>
                 <div class="title-bar-controls">
-                    <button aria-label="Minimize"></button>
-                    <button aria-label="Maximize"></button>
-                    <button aria-label="Close"></button>
+                    <button id="help-button" aria-label="Help"></button>
+                    <button id="close-button-2" disabled aria-label="Close"></button>
                 </div>
             </div>
             <div class="window-body">
                 <menu role="tablist">
-                    <li role="tab"><a href="/index">Home</a></li>
-                    <li role="tab"><a href="/portfolio">Portfolio</a></li>
-                    <li role="tab" aria-selected="true"><a href="/contact">Contact</a></li>
+                    <li role="tab"><a href="./index">Home</a></li>
+                    <li role="tab"><a href="./portfolio">Portfolio</a></li>
+                    <li role="tab" aria-selected="true"><a href="./contact">Contact</a></li>
+                    <li role="tab"><a href="./about">Over mij</a></li>
                     <li role="tab"><a href="https://twitter.com/blacksmoke1033/status/1118799670292226048" target="_blank">???</a></li>
                     <li role="tab"><a href="/"><i class="fa-solid fa-kiwi-bird fa-spin" aria-hidden="true"></i></a></li>
                 </menu>
