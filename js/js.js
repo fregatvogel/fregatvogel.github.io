@@ -42,7 +42,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
 
     closeButton.addEventListener("click", () => {
-        window.location = "./ect/page.html";
+        window.location = "./ect/page";
     });
 
     closeButton2.addEventListener("click", () => {
