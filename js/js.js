@@ -2,7 +2,7 @@
 
 document.addEventListener("keydown", (event) => {
     if (event.code == 'F1') {
-        alert('hi :)');
+        help();
     }
 });
 
@@ -12,6 +12,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     const changeStateTitleBarTop = document.querySelector("main");
     const changeStateTitleBarMain = document.querySelector("#installshield-bigtext");
     const closeButton = document.querySelector("#close-button");
+    const closeButton2 = document.querySelector("#close-button-2");
     const minButton = document.querySelector("#min-button");
     const resButton = document.querySelector("#res-button");
     const helpButton = document.querySelector("#help-button");
@@ -28,22 +29,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
     helpButton.addEventListener("click", () => {
         //console.log(window.navigator.userAgent);
-
-        if(window.navigator.userAgent.indexOf("Firefox") != -1){
-            window.open("https://support.mozilla.org/en-US/products/firefox","_blank"); 
-        } else if (window.navigator.userAgent.indexOf("OPRGX") != -1){
-            window.open("https://help.opera.com/en/latest/","_blank");
-        } else if (window.navigator.userAgent.indexOf("Edg") != -1){
-            window.open("https://support.microsoft.com/en-gb/microsoft-edge","_blank");   
-        } else if (window.navigator.userAgent.indexOf("Chrome") != -1){
-            window.open("https://support.google.com/chrome?p=help","_blank");  
-        } else if (window.navigator.userAgent.indexOf("Safari") != -1){
-            window.open("https://support.apple.com/safari","_blank");  
-        }
+       help();
     });
 
     resButton.addEventListener("click", () => {
-        window.open("https://www.youtube.com/watch?v=7dGwk5-QMpc", "_blank");
+        alert('hi :)');
     });
 
     minButton.addEventListener("click", () => {
@@ -52,8 +42,13 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
 
     closeButton.addEventListener("click", () => {
+        window.location = "./ect/page.html";
+    });
+
+    closeButton2.addEventListener("click", () => {
         window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank"); //ayo replit auto suggest???
     });
+
 });
 
 
@@ -67,3 +62,18 @@ window.addEventListener("DOMContentLoaded", (event) => {
         document.getElementById("content-title-bar").className = "title-bar";
     });
 });*/
+
+
+function help(){
+    if(window.navigator.userAgent.indexOf("Firefox") != -1){
+        window.open("https://support.mozilla.org/en-US/products/firefox","_blank"); 
+    } else if (window.navigator.userAgent.indexOf("OPRGX") != -1){
+        window.open("https://help.opera.com/en/latest/","_blank");
+    } else if (window.navigator.userAgent.indexOf("Edg") != -1){
+        window.open("https://support.microsoft.com/en-gb/microsoft-edge","_blank");   
+    } else if (window.navigator.userAgent.indexOf("Chrome") != -1){
+        window.open("https://support.google.com/chrome?p=help","_blank");  
+    } else if (window.navigator.userAgent.indexOf("Safari") != -1){
+        window.open("https://support.apple.com/safari","_blank");  
+    }
+}
