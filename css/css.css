@@ -34,8 +34,13 @@ body {
     cursor: url(../img/winhelp.png), help;
 }
 
-#notes {
-    width: 100%;
+#text20 {
+    width: 65%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
 }
 
 #content {
