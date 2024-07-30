@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
 /* ¯\_(´・ω・｀)_/¯ */
 
 * {
     margin: 0;
     padding: 0;
-    font-family: "Source Code Pro", monospace;
+    font-family: "Source Code Pro", monospace, "Noto Color Emoji", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     cursor: url(../img/windefault.png), auto;
@@ -37,10 +38,14 @@ body {
 #text20 {
     width: 65%;
     margin-top: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
     font-size: medium;
+}
+
+abbr {
+    color: #0ab69f;
 }
 
 #content {
