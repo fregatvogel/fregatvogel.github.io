@@ -12,7 +12,10 @@
 }
 
 body {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(26, 43, 251, 1) 100%);
+    background: -moz-linear-gradient(to bottom, #1a2bfb 0%, #020024 100%);
+    background: -webkit-linear-gradient(90deg, #020024 0%, #1a2bfb 100%);
+    background: linear-gradient(0deg, #020024 0%, #1a2bfb 100%);
+    background-image: linear-gradient(0deg, #020024 0%, #1a2bfb 100%);
 }
 
 #installshieldtitle {
@@ -61,6 +64,12 @@ abbr {
 
 #contact {
     height: 400px;
+}
+
+#installicon {
+    height: 16px;
+    width: 16px;
+    margin-bottom: -5px;
 }
 
 #project {
@@ -130,6 +139,10 @@ a:hover {
         size: 50px;
     }
 
+    #inhoud h2{
+        font-size: x-large;
+    }
+
     #project {
         width: auto;
         margin-bottom: 10px;
@@ -164,6 +177,10 @@ a:hover {
 
     #content img {
         size: 50px;
+    }
+
+    #inhoud h2{
+        font-size: x-large;
     }
 
     #project {
