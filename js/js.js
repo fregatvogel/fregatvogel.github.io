@@ -11,6 +11,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     //A+ coding right here
     const changeStateTitleBarTop = document.querySelector("main");
     const changeStateTitleBarMain = document.querySelector("#installshield-bigtext");
+    const changeStateTitleBarMain2 = document.querySelector("#installshieldtitle");
     const closeButton = document.querySelector("#close-button");
     const closeButton2 = document.querySelector("#close-button-2");
     const minButton = document.querySelector("#min-button");
@@ -23,6 +24,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
 
     changeStateTitleBarMain.addEventListener("click", () => {
+        document.getElementById("top-title-bar").className = "title-bar";
+        document.getElementById("content-title-bar").className = "title-bar inactive";
+    });
+
+    changeStateTitleBarMain2.addEventListener("click", () => {
         document.getElementById("top-title-bar").className = "title-bar";
         document.getElementById("content-title-bar").className = "title-bar inactive";
     });
