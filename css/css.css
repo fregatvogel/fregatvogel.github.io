@@ -11,6 +11,10 @@
     cursor: url(../img/windefault.png), auto;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     background: -moz-linear-gradient(to bottom, #1a2bfb 0%, #020024 100%);
     background: -webkit-linear-gradient(90deg, #020024 0%, #1a2bfb 100%);
