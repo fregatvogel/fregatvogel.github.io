@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+/* ¯\_(´・ω・｀)_/¯ */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Code Pro", monospace, "Noto Color Emoji", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: url(../img/windefault.png), auto;
+}
+
+body {
+    background: -moz-linear-gradient(to bottom, #1a2bfb 0%, #020024 100%);
+    background: -webkit-linear-gradient(90deg, #020024 0%, #1a2bfb 100%);
+    background: linear-gradient(0deg, #020024 0%, #1a2bfb 100%);
+    background-image: linear-gradient(0deg, #020024 0%, #1a2bfb 100%);
+}
+
+#bruh {
+    height: 100vh !important;
+}
+
+#installshieldtitle {
+    margin-top: 0px;
+}
+
+#installshield-bigtext {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#installshield-bigtext h2 {
+    font-family: monospace;
+    font-style: italic;
+    color: #ffffff;
+    text-shadow: #000001 6px 3px;
+}
+
+#help-button {
+    cursor: url(../img/winhelp.png), help;
+}
+
+#text20 {
+    width: 65%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+}
+
+abbr {
+    color: #0ab69f;
+}
+
+#content {
+    margin-top: 60px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #bdbdbd;
+}
+
+#contact {
+    height: 400px;
+}
+
+#installicon {
+    height: 16px;
+    width: 16px;
+    margin-bottom: -5px;
+}
+
+#project {
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: #dfdfdf 5px groove;
+}
+
+#project img {
+    width: 450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 5px ridge #a7a7a7;
+}
+
+#project span {
+    overflow-wrap: anywhere;
+    font-size: medium;
+}
+
+#project b {
+    font-size: medium;
+}
+
+#project a {
+    font-size: medium;
+}
+
+#construction {
+    padding: 50px;
+}
+
+a:link,
+a:visited {
+    color: #0066ff;
+    text-decoration: dotted underline;
+}
+
+a:link:active,
+a:visited:active {
+    color: #000099;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: url(../img/winpointer.png), pointer;
+    color: #660099;
+}
+
+@media screen and (max-width: 400px) {
+
+    #content {
+        margin-top: 50px;
+        width: 80%;
+        margin-left: 50px;
+        height: auto;
+        background-color: #bdbdbd;
+    }
+
+    #content img {
+        size: 50px;
+    }
+
+    #inhoud h2{
+        font-size: x-large;
+    }
+
+    #project {
+        width: auto;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #project h2 {
+        font-size: large;
+    }
+
+    #project img {
+        width: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 5px ridge #bdbdbd;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #content {
+        margin-top: 50px;
+        width: 80%;
+        margin-left: 50px;
+        height: auto;
+        background-color: #bdbdbd;
+    }
+
+    #content img {
+        size: 50px;
+    }
+
+    #inhoud h2{
+        font-size: x-large;
+    }
+
+    #project {
+        width: auto;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #project h2 {
+        font-size: large;
+    }
+
+    #project img {
+        width: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 5px ridge #bdbdbd;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    #content {
+        margin-top: 50px;
+        width: 80%;
+        margin-left: 50px;
+        height: auto;
+        background-color: #bdbdbd;
+    }
+
+    #content img {
+        size: 50px;
+    }
+
+    #project {
+        width: auto;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #project h2 {
+        font-size: large;
+    }
+
+    #project img {
+        width: 85%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 5px ridge #bdbdbd;
+    }
+
+}

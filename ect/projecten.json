@@ -1,0 +1,67 @@
+{
+	"projecten": [
+		{
+			"naam": "Kraan simulatie | Eye-Concept",
+			"thumbnail": "./img/gif8.gif",
+			"talen": "C#, Python, ReactJS, HTML + CSS",
+			"tekst": "Een simulatie van een STS (ship-to-shore) kraan, de kraan bestaat uit verschillende componenten die samenwerken doormiddel van microservices. Er werd samengewerkt met studenten van Howest Brugge. ",
+			"url": "https://github.com/decoyfalcon/werkplaats-6-cranesim"
+		},
+		{
+			"naam": "n8n node | CloudShift",
+			"thumbnail": "./img/gif6.gif",
+			"talen": "Typescript",
+			"tekst": "Een uitbreiding op een al bestaande node op het n8n platform.",
+			"url": "https://github.com/decoyfalcon/werkplaats-5-n8n"
+		},
+		{
+			"naam": "360 Graden Feedbacktool | Dyflexis",
+			"thumbnail": "./img/gif2.gif",
+			"talen": "ReactJS, JavaScript, SQL, HTML + CSS",
+			"tekst": "Een feedbacktool voor gebruik binnen teams, gebruikers kunnen anoniem of niet anoniem feedback geven. Admins kunnen vragenlijsten maken met zowel multiple choice en open vragen.",
+			"url": "https://github.com/decoyfalcon/werkplaats-4-react"
+		},
+		{
+			"naam": "Aanwezigheidstool | HR",
+			"thumbnail": "./img/gif1.gif",
+			"talen": "Python (Flask), JavaScript, SQL, HTML + CSS",
+			"tekst": "Een aanwezigheidstool voor docenten en studenten. Docenten kunnen de aanwezigheid van studenten bijhouden en studenten kunnen hun aanwezigheid bij een les aangeven. Er wordt gebruik gemaakt van een REST API voor updates.",
+			"url": "https://github.com/decoyfalcon/werkplaats-3-rest"
+		},
+		{
+			"naam": "Het vragen hospitaal | Test Correct",
+			"thumbnail": "./img/tc.png",
+			"talen": "Python (Flask), Jinja, SQL, HTML + CSS",
+			"tekst": "Een website dat redacteurs in staat stelt vragen uit een grote database te verbeteren. Admins kunnen vragen zien met problemen zoals ontbrekende leerdoelen of HTML-tags en kunnen deze bewerken.",
+			"url": "https://github.com/decoyfalcon/werkplaats-2-mvc"
+		},
+		{
+			"naam": "Space Warriors",
+			"thumbnail": "./img/gif3.gif",
+			"talen": "Python (Pygame)",
+			"tekst": "Een side scrolling shooter gemaakt met Pygame.",
+			"url": "https://github.com/decoyfalcon/werkplaats-1-pygame"
+		},
+		{
+			"naam": "Brews Clues",
+			"thumbnail": "./img/gif5.gif",
+			"talen": "-",
+			"tekst": "Een spel gemaakt tijdens de Global Game Jam in 2021.",
+			"url": "https://wesdewess.itch.io/brews-clues"
+		},
+		{
+			"naam": "CameraX",
+			"thumbnail": "./img/camerax.png",
+			"talen": "Java",
+			"tekst": "(insert text)",
+			"url": "https://github.com/fregatvogel/CameraX"
+		},
+		{
+			"naam": "Full House",
+			"thumbnail": "./img/gif4.gif",
+			"talen": "Java, SQL",
+			"tekst": "(insert text)",
+			"url": "https://github.com/decoyfalcon/FullHouse"
+		}
+	]
+}
